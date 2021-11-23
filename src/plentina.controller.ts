@@ -8,6 +8,10 @@ export interface ShapeDTO {
   radius?: number;
   width?: number;
   height?: number;
+  center?: any;
+  endpoint?: any;
+  x2?: number;
+  y2?: number;
 }
 
 export interface CollideShapesRequest {
